@@ -1,0 +1,56 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "79fa98b2a7da466bfe2026bc9152c55de1988c4f7e21a965c75e394646cc66ae"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator14.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/DerivedData/VanyasPiesWebConfigure/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/DerivedData/VanyasPiesWebConfigure/Build/Products",
+      "derivedDataPath" : "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/DerivedData/VanyasPiesWebConfigure/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/DerivedData/VanyasPiesWebConfigure/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/DerivedData/VanyasPiesWebConfigure/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPod9,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "589665DE-5A46-42E6-A09B-DFFBB69E6D75",
+          "TARGET_DEVICE_MODEL" : "iPod9,1",
+          "TARGET_DEVICE_OS_VERSION" : "14.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

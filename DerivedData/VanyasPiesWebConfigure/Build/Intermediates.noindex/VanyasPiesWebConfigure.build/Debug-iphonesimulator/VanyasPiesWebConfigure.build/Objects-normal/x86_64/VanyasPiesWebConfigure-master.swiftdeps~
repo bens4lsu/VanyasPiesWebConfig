@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "e2cad0e1c4f2e2ec93bf9fb5165b1339"
+build_time: [1632347259, 397418000]
+inputs:
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/StatefulPreviewWrapper.swift": [1632341510, 953946166]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/ProductCategoryListView.swift": [1632344470, 247003544]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/ProductDetailView.swift": [1632344470, 206154668]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/HostDataController.swift": [1632339937, 928670681]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/VPSettings.swift": [1632341110, 797171577]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/StatisticsDetailView.swift": !private [1632347259, 274052400]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/ContentView.swift": [1632344470, 258953835]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/VanyasPiesWebConfigureApp.swift": [1632251583, 994242530]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/TextViewModifiers.swift": [1632174626, 562870755]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/ProductListView.swift": [1632344470, 226882669]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/LoadingView.swift": [1632341984, 483325297]
+  "/Users/ben/Sync/XCode/projects/VanyasPiesWebConfigure/VanyasPiesWebConfigure/Views/StatisticsListView.swift": !private [1632347259, 293710771]

@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+VanyasPiesWebConfigure in VanyasPiesWebConfigure
+VanyasPiesWebConfigureTests in VanyasPiesWebConfigure, depends on:
+VanyasPiesWebConfigure in VanyasPiesWebConfigure (explicit)
+VanyasPiesWebConfigureUITests in VanyasPiesWebConfigure, depends on:
+VanyasPiesWebConfigure in VanyasPiesWebConfigure (explicit)

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>17413ED1-6C7A-4B4C-A7D7-0B5C3384F7DE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>17413ED1-6C7A-4B4C-A7D7-0B5C3384F7DE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>VanyasPiesWebConfigure-doctdlgrlomvuphjxciuklnqprhl</string>
+			<key>timeStartedRecording</key>
+			<real>654040089.80113101</real>
+			<key>timeStoppedRecording</key>
+			<real>654040090.42181206</real>
+			<key>title</key>
+			<string>Build target VanyasPiesWebConfigure</string>
+			<key>uniqueIdentifier</key>
+			<string>17413ED1-6C7A-4B4C-A7D7-0B5C3384F7DE</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
