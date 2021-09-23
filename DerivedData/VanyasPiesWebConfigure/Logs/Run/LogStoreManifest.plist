@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>2F5A79EE-DE72-4568-9ECB-2C7C5A139906</key>
+		<key>3DC054BC-FFE5-4408-9069-30E852B83CD1</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2F5A79EE-DE72-4568-9ECB-2C7C5A139906.xcactivitylog</string>
+			<string>3DC054BC-FFE5-4408-9069-30E852B83CD1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run VanyasPiesWebConfigure</string>
 			<key>timeStartedRecording</key>
-			<real>654013805.24663496</real>
+			<real>654057660.07371497</real>
 			<key>timeStoppedRecording</key>
-			<real>654013850.86613595</real>
+			<real>654057856.02024198</real>
 			<key>title</key>
 			<string>Run VanyasPiesWebConfigure</string>
 			<key>uniqueIdentifier</key>
-			<string>2F5A79EE-DE72-4568-9ECB-2C7C5A139906</string>
+			<string>3DC054BC-FFE5-4408-9069-30E852B83CD1</string>
 		</dict>
-		<key>57F47884-52A9-4ECE-979E-0B774870C1E1</key>
+		<key>4A87695D-A6C3-437D-8808-23B3ED1BDD10</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>57F47884-52A9-4ECE-979E-0B774870C1E1.xcactivitylog</string>
+			<string>4A87695D-A6C3-437D-8808-23B3ED1BDD10.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run VanyasPiesWebConfigure</string>
 			<key>timeStartedRecording</key>
-			<real>654013444.95849001</real>
+			<real>654050411.10260606</real>
 			<key>timeStoppedRecording</key>
-			<real>654013484.06010902</real>
+			<real>654050455.95807803</real>
 			<key>title</key>
 			<string>Run VanyasPiesWebConfigure</string>
 			<key>uniqueIdentifier</key>
-			<string>57F47884-52A9-4ECE-979E-0B774870C1E1</string>
+			<string>4A87695D-A6C3-437D-8808-23B3ED1BDD10</string>
 		</dict>
-		<key>90F53433-3028-47EC-B771-F3B9BD3F5652</key>
+		<key>77042F54-0DD1-487F-985B-013AD0041CF5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>90F53433-3028-47EC-B771-F3B9BD3F5652.xcactivitylog</string>
+			<string>77042F54-0DD1-487F-985B-013AD0041CF5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,13 +100,149 @@
 			<key>signature</key>
 			<string>Run VanyasPiesWebConfigure</string>
 			<key>timeStartedRecording</key>
-			<real>653943876.30417299</real>
+			<real>654057954.17723894</real>
 			<key>timeStoppedRecording</key>
-			<real>653944164.22458994</real>
+			<real>654058012.67204905</real>
 			<key>title</key>
 			<string>Run VanyasPiesWebConfigure</string>
 			<key>uniqueIdentifier</key>
-			<string>90F53433-3028-47EC-B771-F3B9BD3F5652</string>
+			<string>77042F54-0DD1-487F-985B-013AD0041CF5</string>
+		</dict>
+		<key>795405C3-4C5E-4950-9640-B0F16BA33E92</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>795405C3-4C5E-4950-9640-B0F16BA33E92.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanyasPiesWebConfigure project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanyasPiesWebConfigure</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanyasPiesWebConfigure</string>
+			<key>timeStartedRecording</key>
+			<real>654056575.11363006</real>
+			<key>timeStoppedRecording</key>
+			<real>654057208.54977596</real>
+			<key>title</key>
+			<string>Run VanyasPiesWebConfigure</string>
+			<key>uniqueIdentifier</key>
+			<string>795405C3-4C5E-4950-9640-B0F16BA33E92</string>
+		</dict>
+		<key>BE007960-2B39-4E3E-B3C4-451A24DD4128</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BE007960-2B39-4E3E-B3C4-451A24DD4128.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanyasPiesWebConfigure project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanyasPiesWebConfigure</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanyasPiesWebConfigure</string>
+			<key>timeStartedRecording</key>
+			<real>654057588.322119</real>
+			<key>timeStoppedRecording</key>
+			<real>654057659.50546801</real>
+			<key>title</key>
+			<string>Run VanyasPiesWebConfigure</string>
+			<key>uniqueIdentifier</key>
+			<string>BE007960-2B39-4E3E-B3C4-451A24DD4128</string>
+		</dict>
+		<key>DB10A7FF-E1F1-4B0C-9765-E912A52F4857</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DB10A7FF-E1F1-4B0C-9765-E912A52F4857.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanyasPiesWebConfigure project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanyasPiesWebConfigure</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanyasPiesWebConfigure</string>
+			<key>timeStartedRecording</key>
+			<real>654058013.70347202</real>
+			<key>timeStoppedRecording</key>
+			<real>654058125.68161201</real>
+			<key>title</key>
+			<string>Run VanyasPiesWebConfigure</string>
+			<key>uniqueIdentifier</key>
+			<string>DB10A7FF-E1F1-4B0C-9765-E912A52F4857</string>
+		</dict>
+		<key>F8DF66E2-2714-4339-BEE5-A08F335FCD4C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F8DF66E2-2714-4339-BEE5-A08F335FCD4C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanyasPiesWebConfigure project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanyasPiesWebConfigure</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanyasPiesWebConfigure</string>
+			<key>timeStartedRecording</key>
+			<real>654057856.64893603</real>
+			<key>timeStoppedRecording</key>
+			<real>654057953.19133604</real>
+			<key>title</key>
+			<string>Run VanyasPiesWebConfigure</string>
+			<key>uniqueIdentifier</key>
+			<string>F8DF66E2-2714-4339-BEE5-A08F335FCD4C</string>
 		</dict>
 	</dict>
 </dict>

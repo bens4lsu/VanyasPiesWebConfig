@@ -5,7 +5,7 @@
 //  Created by Ben Schultz on 9/20/21.
 //
 
-import Foundation
+import SwiftUI
 
 class VPSettings: ObservableObject, Codable {
     
@@ -20,7 +20,6 @@ class VPSettings: ObservableObject, Codable {
     }
     
     struct ProductCategory: Identifiable, Codable, Hashable {
-        
         
         var id: String
         var categoryName: String
@@ -37,14 +36,14 @@ class VPSettings: ObservableObject, Codable {
         }
     }
     
-    enum StatisticSlot: Int, Codable, Comparable, CaseIterable {
-        
-        case first = 0, second, third, fourth
-        
-        static func < (lhs: VPSettings.StatisticSlot, rhs: VPSettings.StatisticSlot) -> Bool {
-            lhs.rawValue < rhs.rawValue
-        }
-    }
+//    enum StatisticSlot: Int, Codable, Comparable, CaseIterable {
+//
+//        case first = 0, second, third, fourth
+//
+//        static func < (lhs: VPSettings.StatisticSlot, rhs: VPSettings.StatisticSlot) -> Bool {
+//            lhs.rawValue < rhs.rawValue
+//        }
+//    }
     
     struct Statistic: Codable {
         var description: String
@@ -52,10 +51,10 @@ class VPSettings: ObservableObject, Codable {
     }
     
     @Published var productCategories: [ProductCategory]
-    @Published var statistics: [StatisticSlot: Statistic]
+    @Published var statistics: [Statistic]
 
     
-    init(productCategories: [ProductCategory], statistics: [StatisticSlot : Statistic]){
+    init(productCategories: [ProductCategory], statistics: [Statistic]){
         self.productCategories = productCategories
         self.statistics = statistics
     }
@@ -70,37 +69,20 @@ class VPSettings: ObservableObject, Codable {
     
     required init(from decoder: Decoder) throws {
         
-        struct TmpStat: Decodable {
-            var slot: Int
-            var statistic: Statistic
-        }
-        
         let values = try decoder.container(keyedBy: CodingKeys.self)
         productCategories = try values.decode([ProductCategory].self, forKey: .productCategories)
-        
-        let tmpStatistics = try values.decode([TmpStat].self, forKey: .statistics)
-        statistics = tmpStatistics.reduce(into: [:], { ret, tmpStat in
-            guard let slot = StatisticSlot(rawValue: tmpStat.slot) else {
-                return
-            }
-            ret[slot] = tmpStat.statistic
-        })
+        statistics = try values.decode([Statistic].self, forKey: .statistics)
         
         if statistics.count != 4 {
             throw HostDataController.HostDataControllerError.loadDataIncomplete
         }
     }
     
-    
+
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(productCategories, forKey: .productCategories)
-        
-        let statisticsToEncode: [Int: Statistic?] = [VPSettings.StatisticSlot.first.rawValue : statistics[.first],
-                                                    VPSettings.StatisticSlot.second.rawValue : statistics[.second],
-                                                    VPSettings.StatisticSlot.third.rawValue : statistics[.third],
-                                                    VPSettings.StatisticSlot.fourth.rawValue : statistics[.fourth]]
-        try container.encode(statisticsToEncode, forKey: .statistics)
+        try container.encode(statistics, forKey: .statistics)
     }
     
     
@@ -115,12 +97,11 @@ class VPSettings: ObservableObject, Codable {
             VPSettings.ProductCategory(id: "meat-pies", categoryName: "Meat Pies", products: testProducts )
         ]
         
-        let testStats: [VPSettings.StatisticSlot : VPSettings.Statistic] =
-            [.first : VPSettings.Statistic(description: "Number of pies made", value: 922),
-             .second : VPSettings.Statistic(description: "slot 2", value: 415),
-             .third : VPSettings.Statistic(description: "NNNNum3 of pies made", value: 89323),
-             .fourth : VPSettings.Statistic(description: "xxxxxxx", value: 12)
-             
+        let testStats: [VPSettings.Statistic] =
+            [VPSettings.Statistic(description: "Number of pies made", value: 922),
+             VPSettings.Statistic(description: "slot 2", value: 415),
+             VPSettings.Statistic(description: "NNNNum3 of pies made", value: 89323),
+             VPSettings.Statistic(description: "xxxxxxx", value: 12)
             ]
         
         self.init(productCategories: testProductCategories, statistics: testStats)

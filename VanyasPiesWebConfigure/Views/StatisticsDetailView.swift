@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StatisticsDetailView: View, StringProtocol {
+struct StatisticsDetailView: View {
     @Binding var statistic: VPSettings.Statistic
     
     var body: some View {
@@ -24,7 +24,7 @@ struct StatisticsDetailView: View, StringProtocol {
 
 struct StatisticsDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        StatefulPreviewWrapper(VPSettings().statistics[.first]!) {
+        StatefulPreviewWrapper(VPSettings().statistics[0]) {
             StatisticsDetailView(statistic: $0)
         }
     }

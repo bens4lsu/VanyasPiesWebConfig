@@ -29,7 +29,6 @@ class HostDataController {
         let data = try Data(contentsOf: url)
         let decoder = JSONDecoder()
         settings = try decoder.decode(VPSettings.self, from: data)
-        print(settings)
     }
     
     private func encode() throws -> String {
@@ -47,8 +46,7 @@ class HostDataController {
     
     func pushSettingsToSite() throws {
         let jsonString = try encode()
+        print (jsonString)
         
     }
-    
-    
 }

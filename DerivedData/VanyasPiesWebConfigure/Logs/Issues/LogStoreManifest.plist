@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>17413ED1-6C7A-4B4C-A7D7-0B5C3384F7DE</key>
+		<key>A1206FA6-CB98-467C-9FEA-AECEC9B15626</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>17413ED1-6C7A-4B4C-A7D7-0B5C3384F7DE.xcactivitylog</string>
+			<string>A1206FA6-CB98-467C-9FEA-AECEC9B15626.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>W</string>
 			</dict>
 			<key>signature</key>
 			<string>VanyasPiesWebConfigure-doctdlgrlomvuphjxciuklnqprhl</string>
 			<key>timeStartedRecording</key>
-			<real>654040089.80113101</real>
+			<real>654058012.55301905</real>
 			<key>timeStoppedRecording</key>
-			<real>654040090.42181206</real>
+			<real>654058013.69481206</real>
 			<key>title</key>
 			<string>Build target VanyasPiesWebConfigure</string>
 			<key>uniqueIdentifier</key>
-			<string>17413ED1-6C7A-4B4C-A7D7-0B5C3384F7DE</string>
+			<string>A1206FA6-CB98-467C-9FEA-AECEC9B15626</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
