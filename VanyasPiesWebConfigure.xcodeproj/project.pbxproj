@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50D8B7D26FD321700BDC41C /* IntField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D8B7C26FD321700BDC41C /* IntField.swift */; };
 		B527E8A426FB8BAF00B8D0AF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527E8A326FB8BAF00B8D0AF /* LoadingView.swift */; };
 		B527E8A626FBB70800B8D0AF /* StatefulPreviewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527E8A526FBB70800B8D0AF /* StatefulPreviewWrapper.swift */; };
 		B5530D6C26F8CA4D00A0BA73 /* VanyasPiesWebConfigureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5530D6B26F8CA4D00A0BA73 /* VanyasPiesWebConfigureApp.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B50D8B7C26FD321700BDC41C /* IntField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntField.swift; sourceTree = "<group>"; };
 		B527E8A326FB8BAF00B8D0AF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		B527E8A526FBB70800B8D0AF /* StatefulPreviewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulPreviewWrapper.swift; sourceTree = "<group>"; };
 		B5530D6826F8CA4D00A0BA73 /* VanyasPiesWebConfigure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanyasPiesWebConfigure.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 				B5530DA326F9301B00A0BA73 /* ProductDetailView.swift */,
 				B5530DA926FA5CF900A0BA73 /* StatisticsListView.swift */,
 				B5530DAB26FA631D00A0BA73 /* StatisticsDetailView.swift */,
+				B50D8B7C26FD321700BDC41C /* IntField.swift */,
 				B5530DA526F9365500A0BA73 /* TextViewModifiers.swift */,
 				B527E8A526FBB70800B8D0AF /* StatefulPreviewWrapper.swift */,
 			);
@@ -302,6 +305,7 @@
 				B5530DA426F9301B00A0BA73 /* ProductDetailView.swift in Sources */,
 				B5530DA826FA536200A0BA73 /* HostDataController.swift in Sources */,
 				B5530D9926F8D96600A0BA73 /* VPSettings.swift in Sources */,
+				B50D8B7D26FD321700BDC41C /* IntField.swift in Sources */,
 				B5530DAC26FA631D00A0BA73 /* StatisticsDetailView.swift in Sources */,
 				B5530D6E26F8CA4D00A0BA73 /* ContentView.swift in Sources */,
 				B5530D6C26F8CA4D00A0BA73 /* VanyasPiesWebConfigureApp.swift in Sources */,
@@ -467,7 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"VanyasPiesWebConfigure/Preview Content\"";
-				DEVELOPMENT_TEAM = 5ZMFPVLKG3;
+				DEVELOPMENT_TEAM = 4YE7E9G4GE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = VanyasPiesWebConfigure/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -475,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.VanyasPiesWebConfigure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.VanyasPiesWebConfig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,7 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"VanyasPiesWebConfigure/Preview Content\"";
-				DEVELOPMENT_TEAM = 5ZMFPVLKG3;
+				DEVELOPMENT_TEAM = 4YE7E9G4GE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = VanyasPiesWebConfigure/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -497,7 +501,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.VanyasPiesWebConfigure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.VanyasPiesWebConfig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

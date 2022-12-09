@@ -14,12 +14,12 @@ struct ProductCategoryListView: View {
     
     var body: some View {
         List {
-            ForEach(productCategories.indices) { i in
-                NavigationLink(destination: ProductListView(productCategory: $productCategories[i])) {
+            ForEach($productCategories) { $productCategory in
+                NavigationLink(destination: ProductListView(productCategory: $productCategory)) {
                     VStack(alignment: .leading) {
-                        Text(productCategories[i].categoryName)
+                        Text(productCategory.categoryName)
                             .textStyle(BlueTextStyle())
-                        Text("\(productCategories[i].id)  |  \(productCategories[i].activeText())")
+                        Text("\(productCategory.id)  |  \(productCategory.activeText())")
                             .textStyle(GrayTextStyle())
                     }
                 }.isDetailLink(false)

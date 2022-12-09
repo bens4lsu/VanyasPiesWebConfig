@@ -16,7 +16,9 @@ struct StatisticsDetailView: View {
                 TextField("", text: $statistic.description)
             }
             Section(header: Text("Number")) {
-                TextField("Number", value: $statistic.value, formatter: NumberFormatter())
+                //TextField("Number", value: $statistic.value, formatter: NumberFormatter())
+                IntField(int: $statistic.value)
+                    .keyboardType(UIKeyboardType.numberPad)
             }
         }
     }

@@ -43,6 +43,9 @@ struct ContentView: View {
                         print ("An unhadled error occurred.")
                     }
                 }
+                Spacer()
+                //Link("Open Test Site in Safari", destination: URL(string: "https://vanyaspies.com/test.html")!)
+                Link("Open Live Site in Safari", destination: URL(string: "https://vanyaspies.com")!)
                 
             }
         }

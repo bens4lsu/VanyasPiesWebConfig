@@ -13,19 +13,26 @@ struct StatisticsListView: View {
         
     var body: some View {
         List {
-            ForEach(statistics.indices) { i in
-                let keyNum = i + 1
-                NavigationLink(destination: Text("TBD")) {
+            ForEach($statistics) { $statistic in
+                NavigationLink(destination: StatisticsDetailView(statistic: $statistic)) {
                     VStack(alignment: .leading) {
-                        Text("Slot #\(keyNum)")
+                        Text("Slot #\(statistic.id)")
                             .textStyle(BlueTextStyle())
-                        Text("\(statistics[i].value)  |  \(statistics[i].description)")
+                        Text("\(statistic.value)  |  \(statistic.description)")
                             .textStyle(GrayTextStyle())
                     }
                 }.isDetailLink(false)
-            }
+            }.onMove(perform: moveRow)
         }.navigationBarItems(trailing: EditButton())
     }
+    
+    private func moveRow(source: IndexSet, destination: Int){
+        statistics.move(fromOffsets: source, toOffset: destination)
+        for i in 0..<statistics.count {
+            statistics[i].id = i
+        }
+    }
+    
 }
 
 struct StatisticsListView_Previews: PreviewProvider {

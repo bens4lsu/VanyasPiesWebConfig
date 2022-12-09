@@ -36,16 +36,8 @@ class VPSettings: ObservableObject, Codable {
         }
     }
     
-//    enum StatisticSlot: Int, Codable, Comparable, CaseIterable {
-//
-//        case first = 0, second, third, fourth
-//
-//        static func < (lhs: VPSettings.StatisticSlot, rhs: VPSettings.StatisticSlot) -> Bool {
-//            lhs.rawValue < rhs.rawValue
-//        }
-//    }
-    
-    struct Statistic: Codable {
+    struct Statistic: Codable, Identifiable {
+        var id: Int
         var description: String
         var value: Int
     }
@@ -98,10 +90,10 @@ class VPSettings: ObservableObject, Codable {
         ]
         
         let testStats: [VPSettings.Statistic] =
-            [VPSettings.Statistic(description: "Number of pies made", value: 922),
-             VPSettings.Statistic(description: "slot 2", value: 415),
-             VPSettings.Statistic(description: "NNNNum3 of pies made", value: 89323),
-             VPSettings.Statistic(description: "xxxxxxx", value: 12)
+        [VPSettings.Statistic(id: 0, description: "Number of pies made", value: 922),
+         VPSettings.Statistic(id: 1, description: "slot 2", value: 415),
+         VPSettings.Statistic(id: 2, description: "NNNNum3 of pies made", value: 89323),
+         VPSettings.Statistic(id: 3, description: "xxxxxxx", value: 12)
             ]
         
         self.init(productCategories: testProductCategories, statistics: testStats)

@@ -5,6 +5,10 @@
 //  Created by Ben Schultz on 9/20/21.
 //
 
+// fix -- 
+//https://stackoverflow.com/questions/65398123/swiftui-list-foreach-in-combination-with-navigationlink-and-isactive-doesnt
+
+
 import SwiftUI
 
 struct ProductListView: View {
@@ -27,18 +31,24 @@ struct ProductListView: View {
             
             Text("Products")
             List {
-                ForEach(productCategory.products.indices) { i in
-                    NavigationLink(destination: ProductDetailView(product: $productCategory.products[i])) {
+                ForEach($productCategory.products) { $product in
+                    NavigationLink(destination: ProductDetailView(product: $product)) {
                         VStack(alignment: .leading) {
-                            Text(productCategory.products[i].productName)
+                            Text(product.productName)
                                 .textStyle(BlueTextStyle())
-                            Text("\(productCategory.products[i].id)  |  \(productCategory.products[i].activeText())")
+                            Text("\(product.id)  \(product.activeText())")
                                 .textStyle(GrayTextStyle())
                         }
                     }.isDetailLink(false)
                 }.onMove(perform: moveRow)
                 .onDelete(perform: deleteRow)
             }.navigationBarItems(trailing: EditButton())
+            
+            Spacer()
+            Button("Add Product"){
+                productCategory.products.append(VPSettings.Product(id: "new-product", productName: "New Product"))
+                
+            }
         }
     }
     
